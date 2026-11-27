@@ -1,18 +1,19 @@
-# Meilleures Actrices - Page Web Interactive
+# 🎬 Top 5 des meilleures actrices - Accordéon Interactif (jQuery)
 
-Page interactive en accordéon réalisée avec **HTML5, CSS3 et jQuery** (exercice d'apprentissage sur la manipulation du DOM, les sprites CSS et les animations).
+Mini-application web interactive présentant un classement de 5 actrices et leur sélection de films à travers un accordéon horizontal animé en **jQuery**.
 
-## Aperçu du projet
+## ✨ Fonctionnalités
 
-- **Structure HTML (`index.html`)** : point d'entrée de la page web.
-- **Mise en forme (`css/styles.css`)** : styles dédiés à la présentation et à la mise en page.
-- **Interactions (`js/script.js`)** : logique et comportements dynamiques côté client.
-- **Visuels (`images/`)** : ensemble de visuels comprenant un arrière-plan ainsi que des versions noir et blanc et couleur.
+- **Accordéon horizontal interactif** : clic sur un panneau pour étendre la fiche et révéler la filmographie associée.
+- **Effet visuel noir & blanc vers couleur** : sprites horizontaux (`background-position`) avec glissement animé de l'image couleur par-dessus la version noir et blanc (`animate()` jQuery).
+- **Navigation double** : sélection possible directement depuis les portraits de l'accordéon ou via la barre de boutons en bas de page (avec effet de survol `.hovered`).
+- **Fiche ouverte par défaut** : la 3ᵉ fiche (**Jessica Alba**) s'ouvre automatiquement au chargement de la page.
+- **Typographies Google Fonts** : polices *Limelight* et *Lobster* chargées via Google Fonts.
 
-## Structure du projet
+## 🗂️ Structure du projet
 
 ```
-meilleures actrices/
+meilleures-actrices/
 ├── css/
 │   └── styles.css
 ├── images/
@@ -25,8 +26,16 @@ meilleures actrices/
 └── README.md
 ```
 
-## Exécution en local
+## 🚀 Exécution en local
 
-1. Extraire l'archive `meilleures actrices.zip`
-2. Ouvrer le dossier `meilleures actrices/`
-3. Lance `index.html` dans votre navigateur web
+Aucune installation de dépendances n'est nécessaire (jQuery 3.7.1 est chargé via CDN dans `index.html`):
+
+1. Clonez ou téléchargez le dépôt
+2. Ouvrez `index.html` dans votre navigateur web (ou lancez un serveur local comme *Live Server* dans VS Code)
+
+## 🛠️ Technologies utilisées
+
+- **HTML5**
+- **CSS3**
+- **jQuery** (via CDN Google)
+- **Google Fonts** (*Limelight*, *Lobster*)
