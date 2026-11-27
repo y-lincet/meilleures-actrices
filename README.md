@@ -1,19 +1,38 @@
-# Top 5 des meilleures actrices
+# 🎬 Top 5 des meilleures actrices
 
-Page interactive en accordéon réalisée avec **HTML5, CSS3 et jQuery** (exercice d'apprentissage sur la manipulation du DOM, les sprites CSS et les animations).
+Mini-application web interactive présentant un classement de 5 actrices et leur sélection de films à travers un accordéon horizontal animé en **jQuery**.
 
-## Fonctionnalités
+## ✨ Fonctionnalités
 
 - **Accordéon animé** : cliquer sur un portrait ou sur un bouton en bas de page déploie la fiche de l'actrice et fait glisser la version couleur par-dessus l'image noir & blanc.
 - **Sprites CSS** : les 5 portraits sont découpés dans deux images uniques (noir & blanc et couleur) via `background-position`.
 - **Ouverture par défaut** : la fiche centrale s'ouvre automatiquement au chargement de la page.
 
-## Structure du projet
+## 🗂️ Structure du projet
 
-```text
-top-actrices/
-├── index.html      # Structure de l'accordéon et des boutons
-├── styles.css      # Mise en page, sprites et typographie
-├── script.js       # Interactions et animations jQuery
-├── images/         # Fond et sprites noir & blanc / couleur
-└── README.md       # Documentation du projet
+```
+meilleures-actrices/
+├── css/
+│   └── styles.css
+├── images/
+│   ├── background.jpg
+│   ├── bw-image.jpg
+│   └── color-image.jpg
+├── js/
+│   └── script.js
+├── index.html
+└── README.md
+```
+
+## 🚀 Exécution en local
+
+Aucune installation de dépendances n'est nécessaire (jQuery 3.7.1 est chargé via CDN dans `index.html`):
+
+1. Cloner ou télécharger le dépôt
+2. Ouvrer `index.html` dans le navigateur web (ou lancer un serveur local comme *Live Server* dans VS Code)
+
+## 🛠️ Technologies utilisées
+
+- **HTML5**
+- **CSS3**
+- **jQuery** (via CDN Google)
