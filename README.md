@@ -35,4 +35,5 @@ Aucune installation de dépendances n'est nécessaire (jQuery 3.7.1 est chargé 
 
 - **HTML5**
 - **CSS3**
-- **jQuery** (via CDN Google)
+- **jQuery**
+-  **Google Fonts**
